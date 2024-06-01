@@ -1,5 +1,8 @@
 package com.htjs.designpattern.principles.demo2.after;
 
+/**
+ * 里氏替换原则
+ */
 public class RectangleDemo {
 
     public static void resize(Rectangle rectangle) {

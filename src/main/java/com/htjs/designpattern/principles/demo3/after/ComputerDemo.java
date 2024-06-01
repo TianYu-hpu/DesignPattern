@@ -1,5 +1,8 @@
 package com.htjs.designpattern.principles.demo3.after;
 
+/**
+ * 依赖导致原则
+ */
 public class ComputerDemo {
 
     public static void main(String[] args) {

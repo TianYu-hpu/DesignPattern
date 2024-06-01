@@ -1,6 +1,8 @@
 package com.htjs.designpattern.principles.demo4.after;
 
-
+/**
+ * 接口隔离原则
+ */
 public class Demo {
 
     public static void main(String[] args) {

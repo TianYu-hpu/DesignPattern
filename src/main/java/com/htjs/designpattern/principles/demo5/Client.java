@@ -1,5 +1,8 @@
 package com.htjs.designpattern.principles.demo5;
 
+/**
+ * 迪米特法则
+ */
 public class Client {
 
     public static void main(String[] args) {
