@@ -4,7 +4,7 @@ package com.htjs.designpattern.pattern.action.interceptor;
  * @version v1.0
  * @ClassName: Client
  * @Description: TODO(一句话描述该类的功能)
- * @Author: TianYu
+ * @Author:
  */
 public class Client {
     public static void main(String[] args) {
@@ -23,8 +23,8 @@ public class Client {
         context.assign(c,3);
         context.assign(d,4);
 
-        //获取抽象语法树    a - b - c - d
-        AbstractExpression expression = new Minus(a,new Minus(new Minus(b,c),d));
+        //获取抽象语法树    a + b - c + d
+        AbstractExpression expression = new Plus(a,new Plus(new Minus(b,c),d));
 
         //解释（计算）
         int result = expression.interpret(context);
